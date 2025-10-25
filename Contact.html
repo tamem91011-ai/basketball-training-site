@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact — Basketball Training Hub</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<header>
+  <div class="container header-inner">
+    <div class="logo">🏀 Basketball Hub</div>
+    <nav aria-label="Primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="beginner.html">Beginner</a></li>
+        <li><a href="intermediate.html">Intermediate</a></li>
+        <li><a href="advanced.html">Advanced</a></li>
+        <li><a href="uae-clubs.html">UAE Clubs & Camps</a></li>
+        <li><a class="active" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <h1>Contact</h1>
+
+  <section class="section">
+    <div class="grid-2">
+      <div>
+        <h2>Message Us</h2>
+        <form id="contactForm" novalidate>
+          <label for="name">Full Name</label>
+          <input id="name" name="name" type="text" required placeholder="Your name"/>
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required placeholder="you@example.com"/>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" required placeholder="How can we help?"></textarea>
+
+          <button type="submit" class="btn">Send</button>
+          <p id="formMsg" class="hint" role="status" aria-live="polite"></p>
+        </form>
+
+        <div class="socials" aria-label="Social links">
+          <a class="pill" href="https://www.instagram.com/basketballhubdubai/" target="_blank" rel="noopener">Instagram</a>
+          <a class="pill" href="https://www.youtube.com/" target="_blank" rel="noopener">YouTube</a>
+          <a class="pill" href="https://www.tiktok.com/" target="_blank" rel="noopener">TikTok</a>
+        </div>
+      </div>
+
+      <div>
+        <h2>Where Can You Train?</h2>
+        <p><strong>Basketball Hub Dubai! A place where basketball is centralized for hard work and improvement</strong><br/>
+          Inside Just Play Sports Complex, 15A Street, Al Quoz 1, Dubai</p>
+        <div class="map-wrap">
+          <iframe
+            title="Basketball Hub Dubai map"
+            src="https://www.google.com/maps?q=Basketball%20Hub%20Dubai%20Just%20Play%20Sports%20Complex&output=embed"
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="pill-row">
+          <a class="pill" href="https://www.google.com/maps/place/Basketball+Hub+Dubai" target="_blank" rel="noopener">Open in Google Maps</a>
+          <a class="pill" href="https://www.basketballhubdubai.com/" target="_blank" rel="noopener">Official Website</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<button id="toTop" class="to-top" aria-label="Back to top" title="Back to top">↑</button>
+
+<footer>
+  <p>&copy; 2025 Basketball Training Hub — Contact</p>
+</footer>
+
+<script src="app.js" defer></script>
+</body>
+</html>
